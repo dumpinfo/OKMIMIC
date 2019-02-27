@@ -1,0 +1,7 @@
+-I/data/simuphysics/eigen
+-I/data/simuphysics/eigen/build
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/data/simuphysics/eigen/build/demos/mandelbrot/mandelbrot.moc
+/data/simuphysics/eigen/demos/mandelbrot/mandelbrot.h

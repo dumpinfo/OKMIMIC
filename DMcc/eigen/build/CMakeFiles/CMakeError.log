@@ -1,0 +1,273 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_590e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_590e0.dir/build.make CMakeFiles/cmTC_590e0.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_590e0.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_590e0.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_590e0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_590e0.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_590e0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_590e0/fast' failed
+make: *** [cmTC_590e0/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3087/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3087.dir/build.make CMakeFiles/cmTC_d3087.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3087.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_d3087.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'
+CMakeFiles/cmTC_d3087.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3087.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3087.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3087/fast' failed
+make: *** [cmTC_d3087/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_92f7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92f7e.dir/build.make CMakeFiles/cmTC_92f7e.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92f7e.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_92f7e.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'
+CMakeFiles/cmTC_92f7e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_92f7e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_92f7e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_92f7e/fast' failed
+make: *** [cmTC_92f7e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f150/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f150.dir/build.make CMakeFiles/cmTC_4f150.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f150.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_4f150.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_4f150.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4f150.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4f150.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4f150/fast' failed
+make: *** [cmTC_4f150/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a6cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a6cb.dir/build.make CMakeFiles/cmTC_1a6cb.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a6cb.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_1a6cb.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_1a6cb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1a6cb.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1a6cb.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1a6cb/fast' failed
+make: *** [cmTC_1a6cb/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6606e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6606e.dir/build.make CMakeFiles/cmTC_6606e.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6606e.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_6606e.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTC_6606e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6606e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6606e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6606e/fast' failed
+make: *** [cmTC_6606e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc5fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc5fc.dir/build.make CMakeFiles/cmTC_bc5fc.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc5fc.dir/src.cxx.o
+/usr/bin/c++     -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_bc5fc.dir/src.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTC_bc5fc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bc5fc.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_bc5fc.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bc5fc/fast' failed
+make: *** [cmTC_bc5fc/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70796/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70796.dir/build.make CMakeFiles/cmTC_70796.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70796.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_70796.dir/CheckSymbolExists.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_70796.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_70796.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_70796.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_70796/fast' failed
+make: *** [cmTC_70796/fast] Error 2
+
+File /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0763b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0763b.dir/build.make CMakeFiles/cmTC_0763b.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0763b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_0763b.dir/CheckSymbolExists.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_0763b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0763b.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0763b.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0763b/fast' failed
+make: *** [cmTC_0763b/fast] Error 2
+
+File /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e478/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e478.dir/build.make CMakeFiles/cmTC_0e478.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e478.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_0e478.dir/CheckSymbolExists.cxx.o -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_0e478.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0e478.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0e478.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e478/fast' failed
+make: *** [cmTC_0e478/fast] Error 2
+
+File /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5aef5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5aef5.dir/build.make CMakeFiles/cmTC_5aef5.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aef5.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5aef5.dir/CheckSymbolExists.c.o   -c /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5aef5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aef5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5aef5.dir/CheckSymbolExists.c.o  -o cmTC_5aef5 -rdynamic 
+CMakeFiles/cmTC_5aef5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5aef5.dir/build.make:97: recipe for target 'cmTC_5aef5' failed
+make[1]: *** [cmTC_5aef5] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5aef5/fast' failed
+make: *** [cmTC_5aef5/fast] Error 2
+
+File /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /data/simuphysics/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd168/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd168.dir/build.make CMakeFiles/cmTC_dd168.dir/build
+make[1]: Entering directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd168.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dd168.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd168.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_dd168.dir/CheckFunctionExists.c.o  -o cmTC_dd168 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dd168.dir/build.make:97: recipe for target 'cmTC_dd168' failed
+make[1]: *** [cmTC_dd168] Error 1
+make[1]: Leaving directory '/data/simuphysics/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dd168/fast' failed
+make: *** [cmTC_dd168/fast] Error 2
+
+
